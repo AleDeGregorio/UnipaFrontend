@@ -1,0 +1,42 @@
+.imgHome{
+    width: 100%;
+    height: 100%;
+}
+
+.HomePage h1{
+    color: rgba(255, 255, 255, 0.836);
+    position: relative;
+    top: 40%;
+}
+
+
+.scritta{
+    position: relative;
+    height: 600px;
+}
+
+.carteHome{
+    width: 100%;
+    height: 100%;
+}
+
+.containerCarteHome{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.containerCarosello{
+    width: 100%;
+    height: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .scritta h1{
+        color: black;
+    }
+}
+
+
+

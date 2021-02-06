@@ -1,0 +1,146 @@
+.GestioneProprietario{
+  background-image: url(https://images.pexels.com/photos/1267438/pexels-photo-1267438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carte_prop{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+#prop {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: rgba(8, 1, 1, 0.5);
+  border: 2px solid white;
+  border-radius: 0;
+}
+
+
+#prop:hover {
+  cursor: pointer;
+  background: rgba(8, 1, 1, 0.8);
+}
+
+#propNoLink{
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: rgba(8, 1, 1, 0.5);
+  border: 2px solid white;
+  border-radius: 0;
+}
+
+
+#propNoLink:hover {
+  cursor: pointer;
+  background: rgba(8, 1, 1, 0.8);
+}
+
+.LinK:hover{
+text-decoration: none;
+}
+
+.turismocont p{
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  #prop {
+    height: 100%;
+    width: 100%;
+  }
+
+  #propNoLink{
+    height: 100%;
+    width: 100%;
+    height: 200px;
+    margin: 5px;
+  }
+
+  .imageProp{
+    width: 30%;
+    height: 30%;
+    left:35%;
+    position: relative;
+  }
+
+  .LinK {
+    height: 100%;
+    width: 100%;
+    height: 200px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  #prop {
+    height: 100%;
+    width: 100%;
+  }
+
+  .imageProp{
+    width: 30%;
+    height: 30%;
+    left:35%;
+    position: relative;
+  }
+
+  .LinK {
+    height: 100%;
+    width: 100%;
+    height: 200px;
+    margin: 5px;
+  }
+
+  #propNoLink{
+    height: 100%;
+    width: 100%;
+    height: 200px;
+    margin: 5px;
+    margin-top: 0.7%;
+    position: relative;
+  }
+
+}
+
+@media only screen and (min-width: 768px){
+
+  #prop {
+    height: 250px;
+    width: 450px;
+    margin: 5px;
+  }
+
+  .imageProp{
+    width: 60px;
+    height: 60px;
+    left:43%;
+    position: relative;
+  }
+
+  .LinK {
+    height: 250px;
+    width: 450px;
+    margin: 5px;
+  }
+
+  #propNoLink{
+    height: 250px;
+    width: 450px;
+    margin: 5px;
+    position: relative;
+    left: 0.35%;
+    margin-top: 0.7%;
+  }
+
+}
+
+
+

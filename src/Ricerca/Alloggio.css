@@ -1,0 +1,69 @@
+.casaVacanza{
+    margin: 25px 50px 25px 50px;
+    border: 2px solid white;
+    background: rgba(8, 1, 1, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.918) 0px 16px 26px;
+    color: white;
+}
+
+.descrizione{
+    text-align: left;
+    color: rgb(201, 199, 199);
+    padding: 6px;
+    height: 100%;
+}
+
+.containerFoto{
+    width: 100%;
+}
+
+.fotoAlloggi{
+    width: 100%;
+    height: 300px;
+}
+
+.vai{
+    text-decoration: none;
+    color: white;
+}
+
+.vai:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.bottoneLink{
+    width: 100%;
+    background-color: black;
+    top: 100%;
+}
+
+.casaVacanza img{
+    width:100%;
+    border-bottom: 2px solid white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .casaVacanza{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    .casaVacanza{
+        width: 80%;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+
+    .casaVacanza{
+        width: 30%;
+        height: 100%;
+    }
+
+}
+

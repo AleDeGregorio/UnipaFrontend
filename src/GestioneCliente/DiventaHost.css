@@ -1,0 +1,166 @@
+
+#cdh1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: rgba(8, 1, 1, 0.7);
+    border: 2px solid white;
+    border-radius: 0;
+}
+
+.top{
+    background: rgba(8, 1, 1, 0.5);
+}
+
+#titoloCarta{
+    margin: 0;
+}
+
+#corpoCarta{
+    height: 100%;
+}
+
+.containerFormDH{
+    margin-top:20px;
+}
+
+.colorLabel{
+    margin-top:10px;
+    color:white;
+}
+#form-select{
+    width:80%;
+    position:relative;
+    left:10%;
+}
+#form-select1{
+    width:80%;
+    position:relative;
+    left:10%;
+}
+#dhbutton{
+    color:white;
+    background-color: black;
+    border:none;
+}
+.jumbo{
+    color: white;
+    background: rgba(8, 1, 1, 0.7);
+    border: 2px solid white;
+    position: relative;
+}
+.containerFormSV{
+    margin-bottom:50px;
+    margin-top:30px;
+}
+
+@media only screen and (max-width: 599px) {
+    .cardgroup{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .cdh{
+        height: 100%;
+        width: 70%;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .formDH{
+        margin-top:20px;
+        width:100%;
+        background: rgba(8, 1, 1, 0.3);
+        border:2px solid white;
+        position:relative;
+    }
+
+    .top {
+
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .jumbo{
+        margin-top: 6%;
+        margin-bottom: 2%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .cardgroup{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cdh{
+        height: 100%;
+        width: 50%;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .formDH{
+        margin-top:20px;
+        width:90%;
+        background: rgba(8, 1, 1, 0.3);
+        border:2px solid white;
+        position:relative;
+        left:5%;
+    }
+
+    .top {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .jumbo{
+        height: 60%;
+        padding: 10px;
+        right: 1%;
+        margin-top: 6%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .cardgroup{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cdh{
+        height: 100%;
+        width: 20%;
+        padding: 5px;
+    }
+
+    .formDH{
+        margin-top:20px;
+        width:90%;
+        background: rgba(8, 1, 1, 0.3);
+        border:2px solid white;
+        position:relative;
+        left:5%;
+    }
+
+    .top {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .jumbo{
+        height: 60%;
+        padding: 10px;
+        right: 3%;
+        margin-top: 6%;
+    }
+}

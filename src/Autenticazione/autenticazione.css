@@ -1,0 +1,154 @@
+/*CSS COMPLETATO*/
+
+.contenitoreAutenticazione {
+    background: rgba(8, 1, 1, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    border: 2px solid white;
+    color: white;
+}
+
+.contenitoreAutenticazioneRegistrati{
+    background: rgba(8, 1, 1, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    border: 2px solid white;
+    color: white;
+}
+
+
+.contentNewCheckAutenticazione{
+    width:100%;
+    padding: 30px;
+}
+
+.contenitoreAutenticazione input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    height: 45px;
+}
+
+.contenitoreAutenticazione select {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    height: 45px;
+}
+
+
+.contenitoreAutenticazione .pulsante{
+    background-color: black;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+
+.contenitorePulsanti .pulsanti{
+    background-color: black;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.contenitoreAutenticazione .pulsanti{
+    background-color: black;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+
+
+.accedi{
+    height: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .contenitoreAutenticazione {
+        width: 80%;
+        height: 100%;
+        left: 10%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .contenitoreAutenticazioneRegistrati{
+        width: 80%;
+        height: 100%;
+        left: 10%;
+        margin-top: 50%;
+        margin-bottom: 50%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .contenitoreAutenticazione {
+        width: 60%;
+        height: 100%;
+        left: 20%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .contenitoreAutenticazioneRegistrati{
+        width: 60%;
+        height: 100%;
+        left: 20%;
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .contenitoreAutenticazione {
+        width: 40%;
+        height: 100%;
+        left: 30%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .contenitoreAutenticazioneRegistrati{
+        width: 40%;
+        height: 100%;
+        left: 30%;
+        margin-top: 13%;
+        margin-bottom: 13%;
+    }
+}

@@ -1,0 +1,129 @@
+.contenitoreDatiPersonali{
+    width: 50%;
+    left: 25%;
+    position: relative;
+    margin-top: 7%;
+    margin-bottom: 6.7%;
+    background: rgba(8, 1, 1, 0.5);
+    border: 2px solid white;
+    
+}
+
+.contenitoreDatiPersonali button{
+    background-color: black;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+
+.DatiPersonali{
+    background: rgba(8, 1, 1, 0.5);
+}
+
+.first-cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#DatiPersonaliCarta1{
+    background: none;
+    color: white;
+    text-align: left;
+    border-radius: 0;
+}
+
+#DatiPersonaliCarta{
+    background: none;
+    color: white;
+    text-align: left;
+    border-radius: 0;  
+}
+
+.penna{
+    margin-right: 10px;
+}
+
+.view-cont{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.imgprof{
+    width:100px;
+    height:100px;
+    margin-left:10px;
+    align-items: center;
+}
+
+
+
+
+/*.containerGA{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container_dato {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.visuaInfo {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.modificaPassword {
+    width:70%
+}
+.containerDGA{
+    border: 2px solid black;
+}
+.white-carta{
+   border:none;
+   background-color:white;
+
+}
+.view-cont{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    height:5rem;
+}
+.penna{
+    margin-right: 10px;
+}
+.sx-head{
+    display:flex;
+    flex-direction:column;
+    justify-content: left;
+    margin-left:10px;
+}
+.first-cont{
+    display:flex;
+    flex-direction:row;
+}
+.datiprofilo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-left:100px;
+}
+.imgprof{
+    width:100px;
+    height:100px;
+    margin-left:10px;
+    align-items: center;
+}*/

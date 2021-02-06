@@ -1,0 +1,20 @@
+.menu-prop{
+    height:30px;
+    width:50px; 
+    right:50%;
+    margin:0;
+    padding:0;
+}
+.imgfc{
+    width:50px;
+}
+.ticambio{
+    color:white;
+    background-color: white;   
+}
+
+#dropNavLog{
+    background-color: #f8f9fa;
+    color: black;
+    border: 0;
+}

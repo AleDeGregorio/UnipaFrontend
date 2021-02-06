@@ -1,0 +1,56 @@
+.contenitore{
+  color: white;
+  background: rgba(8, 1, 1, 0.5);
+  border: 2px solid white;
+  border-radius: 0;
+  padding: 15px;
+}
+
+.contenitore p{
+    margin: 8px;
+}
+
+.allerta{
+    position: absolute;
+    height: 200px;
+}
+
+#allerta{
+    position: absolute;
+    height: 200px;
+}
+
+#checkinButton{
+    background-color: black;
+    border-radius: 0;
+    border: 0;
+    width: 100%;
+    height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contenitore {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    .contenitore {
+        width: 100%
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+
+    .contenitore {
+        width: 50%;
+        left: 25%;
+        position: relative;
+        margin: 10px;
+    }
+
+}

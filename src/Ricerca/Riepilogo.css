@@ -1,0 +1,186 @@
+.return{
+    color: black;
+}
+
+#prenotaDrop{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 30px;
+    border-radius: 0;
+    border: 0;
+}
+
+.sceltaDate div{
+    margin: 1%;
+}
+
+.prenotazioni{
+    position: relative;
+    border: 1px solid black;
+}
+
+.prenotazioni input{
+    width: 100%;
+}
+
+.containerSelect{
+    margin: 1%;
+}
+
+.contieneContenitore{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-room-info{
+    text-align: left;
+}
+
+.room-extras{
+    text-align: right;
+}
+
+.check{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contenitoreRiepilogo{
+    background: white;
+    color: black;
+}
+
+.bottonePrenota{
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 599px) {
+
+    .single-room-images{
+        width: 100%;
+    }
+    
+    .riepilogoImg{
+        width: 15%;
+    }
+    
+    .contenitoreRiepilogo{
+        width: 100%;
+    }
+   
+
+    .bottonePrenota{
+        width: 100%;
+        height: 70px;
+    }
+
+    .sceltaDate{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .prenotazioni{
+        width: 100%;
+    }
+
+    #prenotaDrop{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .single-room-images{
+        width: 100%;
+    }
+    
+    .riepilogoImg{
+        width: 20%;
+        margin: 10px;
+    }
+    
+    .contenitoreRiepilogo{
+        width: 100%;
+        position: relative;
+    }
+    
+    .prenotazioni{
+        width: 50%;
+        left: 25%;
+    }
+
+    .bottonePrenota{
+        width: 100%;
+        height: 70px;
+    }
+
+    .sceltaDate{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #prenotaDrop{
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .single-room-images{
+        width: 100%;
+    }
+    
+    .riepilogoImg{
+        width: 15%;
+        margin: 10px;
+    }
+    
+    
+    .contenitoreRiepilogo{
+        width: 70%;
+        position: relative;
+    }
+    
+    
+    .bottonePrenota{
+        width: 100%;
+        height: 70px;
+    }
+
+
+    .formPerPrenotare{
+        width: 100%;
+    }
+
+    .sceltaDate{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .sistemaPagina{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .prenotazioni{
+        width: 50%;
+        left: 25%;
+    }
+
+    #prenotaDrop{
+        width: 50%;
+    }
+
+}
