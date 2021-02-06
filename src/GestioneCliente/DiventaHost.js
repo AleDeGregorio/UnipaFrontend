@@ -43,7 +43,7 @@ class DiventaHost extends React.Component {
             telefono: this.state.telefono
         }
 
-        fetch('http://localhost:9000/insertProprietarioCliente/newPropCl', {
+        fetch('https://progetto-unipa-be.herokuapp.com/insertProprietarioCliente/newPropCl', {
             method: "POST",
             headers: {
                 'Content-type' : 'application/json'
@@ -82,7 +82,7 @@ class DiventaHost extends React.Component {
                             email: this.state.email,
                         }
                 
-                        fetch('http://localhost:9000/searchProprietarioEmail/proprietarioEmail', {
+                        fetch('https://progetto-unipa-be.herokuapp.com/searchProprietarioEmail/proprietarioEmail', {
                             method: "POST",
                             headers: {
                                 'Content-type' : 'application/json'
@@ -138,7 +138,7 @@ class DiventaHost extends React.Component {
             checkOut: ''
         };
 
-        fetch('http://localhost:9000/ricercaAlloggio/risultati', {
+        fetch('https://progetto-unipa-be.herokuapp.com/ricercaAlloggio/risultati', {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'

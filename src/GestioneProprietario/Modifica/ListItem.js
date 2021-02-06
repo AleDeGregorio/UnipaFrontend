@@ -262,7 +262,7 @@ class ListItem extends Component {
       id_stanza: e
     }
 
-    fetch('http://localhost:9000/deleteStanza/deleted', {
+    fetch('https://progetto-unipa-be.herokuapp.com/deleteStanza/deleted', {
       method: "POST",
       headers: {
           'Content-type' : 'application/json'

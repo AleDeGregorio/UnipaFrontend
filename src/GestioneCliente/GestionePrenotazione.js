@@ -40,7 +40,7 @@ class GestionePrenotazione extends React.Component {
             ref_cliente: this.state.email
         }; 
 
-        fetch('http://localhost:9000/searchPrenotazioneCliente/prenotazioneCliente', {
+        fetch('https://progetto-unipa-be.herokuapp.com/searchPrenotazioneCliente/prenotazioneCliente', {
             method:'POST',
             headers:{
                 'Content-type':'application/json'
@@ -156,7 +156,7 @@ class GestionePrenotazione extends React.Component {
                 data_ritorno: this.state.data_ritorno
             }
 
-            fetch('http://localhost:9000/updateDatePrenotazione/newDate', {
+            fetch('https://progetto-unipa-be.herokuapp.com/updateDatePrenotazione/newDate', {
                 method: "POST",
                 headers: {
                     'Content-type' : 'application/json'
@@ -207,7 +207,7 @@ class GestionePrenotazione extends React.Component {
             id_prenotazione: this.state.id_prenotazione,
         }
 
-        fetch('http://localhost:9000/deletePrenotazione/delete', {
+        fetch('https://progetto-unipa-be.herokuapp.com/deletePrenotazione/delete', {
             method: "POST",
             headers: {
                 'Content-type' : 'application/json'
@@ -261,7 +261,7 @@ class GestionePrenotazione extends React.Component {
                 ref_proprieta: ref_proprieta
             }; 
 
-            fetch('http://localhost:9000/getDateCasa/dateCasa', { 
+            fetch('https://progetto-unipa-be.herokuapp.com/getDateCasa/dateCasa', { 
                 method:'POST',
                 headers:{
                     'Content-type':'application/json'
@@ -305,7 +305,7 @@ class GestionePrenotazione extends React.Component {
                 id_stanza: id_stanza
             }; 
 
-            fetch('http://localhost:9000/getDateStanza/dateStanza', { 
+            fetch('https://progetto-unipa-be.herokuapp.com/getDateStanza/dateStanza', { 
                 method:'POST',
                 headers:{
                     'Content-type':'application/json'

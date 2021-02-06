@@ -64,7 +64,7 @@ class autenticazioneRegistratiProprietario extends React.Component {
             telefono: this.state.telefono
         }
 
-        fetch('http://localhost:9000/insertProprietario/new', {
+        fetch('https://progetto-unipa-be.herokuapp.com/insertProprietario/new', {
             method: "POST",
             headers: {
                 'Content-type' : 'application/json'
@@ -104,7 +104,7 @@ class autenticazioneRegistratiProprietario extends React.Component {
                     telefono: this.state.telefono
                 }
         
-                fetch('http://localhost:9000/insertCliente/new', {
+                fetch('https://progetto-unipa-be.herokuapp.com/insertCliente/new', {
                     method: "POST",
                     headers: {
                         'Content-type' : 'application/json'

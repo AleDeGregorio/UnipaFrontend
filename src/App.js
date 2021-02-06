@@ -95,7 +95,7 @@ class App extends React.Component {
       password: this.state.password,
     };
 
-    fetch('http://localhost:9000/login/logged', {
+    fetch('https://progetto-unipa-be.herokuapp.com/login/logged', {
         method: "POST",
         headers: {
             'Content-type': 'application/json'

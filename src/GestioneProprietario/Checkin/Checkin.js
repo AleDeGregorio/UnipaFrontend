@@ -67,7 +67,7 @@ class Checkin extends React.Component {
             ammontare: this.state.tassa
         }
 
-        fetch('http://localhost:9000/insertTassa/new', {
+        fetch('https://progetto-unipa-be.herokuapp.com/insertTassa/new', {
             method: "POST",
             headers: {
                 'Content-type' : 'application/json'
@@ -105,7 +105,7 @@ class Checkin extends React.Component {
                     id_prenotazione: this.state.dati.id_prenotazione,
                 }
         
-                fetch('http://localhost:9000/checkinPrenotazione/checkin', {
+                fetch('https://progetto-unipa-be.herokuapp.com/checkinPrenotazione/checkin', {
                     method: "POST",
                     headers: {
                         'Content-type' : 'application/json'

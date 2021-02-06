@@ -86,7 +86,7 @@ class DatiPersonali extends React.Component {
                 num_documento: this.state.num_documento === '' ? this.state.num_documentoTXT : this.state.num_documento
             }
 
-            fetch('http://localhost:9000/updateProprietario/fields', {
+            fetch('https://progetto-unipa-be.herokuapp.com/updateProprietario/fields', {
                 method: "POST",
                 headers: {
                     'Content-type' : 'application/json'
@@ -121,7 +121,7 @@ class DatiPersonali extends React.Component {
                         email: this.state.email
                     }
 
-                    fetch('http://localhost:9000/searchProprietarioEmail/proprietarioEmail', {
+                    fetch('https://progetto-unipa-be.herokuapp.com/searchProprietarioEmail/proprietarioEmail', {
                         method: "POST",
                         headers: {
                             'Content-type' : 'application/json'
@@ -175,7 +175,7 @@ class DatiPersonali extends React.Component {
                 telefono: this.state.telefono === '' ? this.state.telefonoTXT : this.state.telefono
             }
 
-            fetch('http://localhost:9000/updateCliente/fields', {
+            fetch('https://progetto-unipa-be.herokuapp.com/updateCliente/fields', {
                 method: "POST",
                 headers: {
                     'Content-type' : 'application/json'
@@ -211,7 +211,7 @@ class DatiPersonali extends React.Component {
                         email: this.state.email
                     }
 
-                    fetch('http://localhost:9000/searchCliente/results', {
+                    fetch('https://progetto-unipa-be.herokuapp.com/searchCliente/results', {
                         method: "POST",
                         headers: {
                             'Content-type' : 'application/json'
@@ -273,7 +273,7 @@ class DatiPersonali extends React.Component {
                 password: this.state.oldPassword,
             }
 
-            fetch('http://localhost:9000/loginProprietario/proprietarioLogged', {
+            fetch('https://progetto-unipa-be.herokuapp.com/loginProprietario/proprietarioLogged', {
                 method: "POST",
                 headers: {
                     'Content-type' : 'application/json'
@@ -310,7 +310,7 @@ class DatiPersonali extends React.Component {
                         password: this.state.newPassword,
                     }
 
-                    fetch('http://localhost:9000/updateProprietarioPassword/updPass', {
+                    fetch('https://progetto-unipa-be.herokuapp.com/updateProprietarioPassword/updPass', {
                         method: "POST",
                         headers: {
                             'Content-type' : 'application/json'
@@ -345,7 +345,7 @@ class DatiPersonali extends React.Component {
                                 email: this.state.email
                             }
         
-                            fetch('http://localhost:9000/searchProprietarioEmail/proprietarioEmail', {
+                            fetch('https://progetto-unipa-be.herokuapp.com/searchProprietarioEmail/proprietarioEmail', {
                                 method: "POST",
                                 headers: {
                                     'Content-type' : 'application/json'
@@ -398,7 +398,7 @@ class DatiPersonali extends React.Component {
                 password: this.state.oldPassword,
             }
 
-            fetch('http://localhost:9000/loginCliente/clienteLogged', {
+            fetch('https://progetto-unipa-be.herokuapp.com/loginCliente/clienteLogged', {
                 method: "POST",
                 headers: {
                     'Content-type' : 'application/json'
@@ -435,7 +435,7 @@ class DatiPersonali extends React.Component {
                         password: this.state.newPassword,
                     }
 
-                    fetch('http://localhost:9000/updateClientePassword/updPassword', {
+                    fetch('https://progetto-unipa-be.herokuapp.com/updateClientePassword/updPassword', {
                         method: "POST",
                         headers: {
                             'Content-type' : 'application/json'
@@ -471,7 +471,7 @@ class DatiPersonali extends React.Component {
                                 email: this.state.email
                             }
         
-                            fetch('http://localhost:9000/searchCliente/results', {
+                            fetch('https://progetto-unipa-be.herokuapp.com/searchCliente/results', {
                                 method: "POST",
                                 headers: {
                                     'Content-type' : 'application/json'

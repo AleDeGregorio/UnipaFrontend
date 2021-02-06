@@ -63,7 +63,7 @@ class ListCase extends Component {
       tipo_proprieta: 'cv'
     }
 
-    fetch('http://localhost:9000/searchProprietaCVProprietario/proprietaCVProprietario', {
+    fetch('https://progetto-unipa-be.herokuapp.com/searchProprietaCVProprietario/proprietaCVProprietario', {
         method: "POST",
         headers: {
             'Content-type': 'application/json'

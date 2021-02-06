@@ -64,7 +64,7 @@ class InserimentoStanzaBnB extends React.Component {
       tariffa_stanza: this.state.tariffa_stanza
     }
 
-    fetch('http://localhost:9000/insertStanza/new', {
+    fetch('https://progetto-unipa-be.herokuapp.com/insertStanza/new', {
       method: "POST",
       headers:{
         'Content-type': 'application/json'
@@ -115,7 +115,7 @@ class InserimentoStanzaBnB extends React.Component {
       form.append("foto3", this.state.foto3, this.state.fileName3);
       form.append("foto4", this.state.foto4, this.state.fileName4);
   
-      fetch('http://localhost:9000/uploadFotoST/upload', {
+      fetch('https://progetto-unipa-be.herokuapp.com/uploadFotoST/upload', {
           method: "POST",
           body: form
       })

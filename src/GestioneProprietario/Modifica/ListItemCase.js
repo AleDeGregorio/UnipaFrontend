@@ -265,7 +265,7 @@ class ListItemCase extends Component {
       ref_proprieta_cv: e
     }
 
-    fetch('http://localhost:9000/deleteCasa/deleted', {
+    fetch('https://progetto-unipa-be.herokuapp.com/deleteCasa/deleted', {
       method: "POST",
       headers: {
           'Content-type' : 'application/json'

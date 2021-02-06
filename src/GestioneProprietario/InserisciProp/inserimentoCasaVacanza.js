@@ -51,7 +51,7 @@ class InserimentoCasaVacanza extends React.Component {
 
   componentDidMount() {
 
-    fetch('http://localhost:9000/servizi/all', {
+    fetch('https://progetto-unipa-be.herokuapp.com/servizi/all', {
       method: "GET",
       headers: {
         'Content-type': 'application/json'
@@ -125,7 +125,7 @@ class InserimentoCasaVacanza extends React.Component {
       descrizione: this.state.descrizione
     }
 
-    fetch('http://localhost:9000/insertProprieta/new', {
+    fetch('https://progetto-unipa-be.herokuapp.com/insertProprieta/new', {
       method: "POST",
       headers:{
         'Content-type': 'application/json'
@@ -173,7 +173,7 @@ class InserimentoCasaVacanza extends React.Component {
         fileName4: data2.ref_proprieta_cv + "_4.jpg",
       });
 
-      fetch('http://localhost:9000/insertCasa/new',{
+      fetch('https://progetto-unipa-be.herokuapp.com/insertCasa/new',{
         method: "POST",
         headers: {
           'Content-type': 'application/json'
@@ -200,7 +200,7 @@ class InserimentoCasaVacanza extends React.Component {
           form.append("foto3", this.state.foto3, this.state.fileName3);
           form.append("foto4", this.state.foto4, this.state.fileName4);
       
-          fetch('http://localhost:9000/uploadFotoCV/upload', {
+          fetch('https://progetto-unipa-be.herokuapp.com/uploadFotoCV/upload', {
               method: "POST",
               body: form
           })
@@ -243,7 +243,7 @@ class InserimentoCasaVacanza extends React.Component {
         servizio: this.state.nuovoServizio
       }
 
-      fetch('http://localhost:9000/insertServizio/new', {
+      fetch('https://progetto-unipa-be.herokuapp.com/insertServizio/new', {
         method: "POST",
         headers:{
           'Content-type': 'application/json'

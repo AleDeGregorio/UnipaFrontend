@@ -37,7 +37,7 @@ class InserimentoBnB extends React.Component {
 
   componentDidMount() {
 
-    fetch('http://localhost:9000/servizi/all', {
+    fetch('https://progetto-unipa-be.herokuapp.com/servizi/all', {
       method: "GET",
       headers: {
         'Content-type': 'application/json'
@@ -106,7 +106,7 @@ class InserimentoBnB extends React.Component {
       descrizione: this.state.descrizione
     }
 
-    fetch('http://localhost:9000/insertProprieta/new', {
+    fetch('https://progetto-unipa-be.herokuapp.com/insertProprieta/new', {
       method: "POST",
       headers:{
         'Content-type': 'application/json'
@@ -147,7 +147,7 @@ class InserimentoBnB extends React.Component {
         check_out : this.state.check_out
       };
 
-      fetch('http://localhost:9000/insertBB/new',{
+      fetch('https://progetto-unipa-be.herokuapp.com/insertBB/new',{
         method: "POST",
         headers: {
           'Content-type': 'application/json'
@@ -200,7 +200,7 @@ class InserimentoBnB extends React.Component {
         servizio: this.state.nuovoServizio
       }
 
-      fetch('http://localhost:9000/insertServizio/new', {
+      fetch('https://progetto-unipa-be.herokuapp.com/insertServizio/new', {
         method: "POST",
         headers:{
           'Content-type': 'application/json'

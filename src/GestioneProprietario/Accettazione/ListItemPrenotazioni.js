@@ -260,7 +260,7 @@ class ListItemPrenotazioni extends Component {
       id_prenotazione: e
     }
 
-    fetch('http://localhost:9000/rifiutaPrenotazione/rifiutata', {
+    fetch('https://progetto-unipa-be.herokuapp.com/rifiutaPrenotazione/rifiutata', {
       method: "POST",
       headers: {
           'Content-type' : 'application/json'
@@ -312,7 +312,7 @@ class ListItemPrenotazioni extends Component {
       id_stanza: e.id_stanza ? e.id_stanza : ''
     }
 
-    fetch('http://localhost:9000/accettaPrenotazione/accettata', {
+    fetch('https://progetto-unipa-be.herokuapp.com/accettaPrenotazione/accettata', {
       method: "POST",
       headers: {
           'Content-type' : 'application/json'
@@ -377,7 +377,7 @@ class ListItemPrenotazioni extends Component {
       proprieta: e.ref_proprieta
     }
 
-    fetch('http://localhost:9000/checkSoggiornante/resultIdoneita', {
+    fetch('https://progetto-unipa-be.herokuapp.com/checkSoggiornante/resultIdoneita', {
       method: "POST",
       headers: {
           'Content-type' : 'application/json'

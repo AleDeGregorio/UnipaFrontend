@@ -67,7 +67,7 @@ class ModificaStanza extends React.Component {
       fileName4: data1.id_stanza + '_' + data1.ref_bb + "_4.jpg",
     });
 
-    fetch('http://localhost:9000/updateStanza/fields', {
+    fetch('https://progetto-unipa-be.herokuapp.com/updateStanza/fields', {
         method: 'POST',
         headers: {
           'Content-type':'application/json'
@@ -102,7 +102,7 @@ class ModificaStanza extends React.Component {
           form.append("foto4", this.state.imgST_path4, this.state.fileName4);
         }
 
-        fetch('http://localhost:9000/uploadFotoST/upload', {
+        fetch('https://progetto-unipa-be.herokuapp.com/uploadFotoST/upload', {
           method: "POST",
           body: form
         })
