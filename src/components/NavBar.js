@@ -191,7 +191,7 @@ class NavBar extends React.Component {
             return (
                 <> 
                     <Navbar bg="light" expand="lg">
-                        <Navbar.Brand href="/">Sito Progetto</Navbar.Brand>
+                        <Navbar.Brand href="/">H&B</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mr-auto">
@@ -217,7 +217,7 @@ class NavBar extends React.Component {
 
         return(
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="/">Sito Progetto</Navbar.Brand>
+                <Navbar.Brand href="/">H&B</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
