@@ -260,7 +260,7 @@ class ListItemPrenotazioni extends Component {
       id_prenotazione: e
     }
 
-    fetch('https://h-e-b-be.herokuapp.com/rifiutaPrenotazione/rifiutata', {
+    fetch('https://uni-bnb-be.herokuapp.com/rifiutaPrenotazione/rifiutata', {
       method: "POST",
       headers: {
           'Content-type' : 'application/json'
@@ -312,7 +312,7 @@ class ListItemPrenotazioni extends Component {
       id_stanza: e.id_stanza ? e.id_stanza : ''
     }
 
-    fetch('https://h-e-b-be.herokuapp.com/accettaPrenotazione/accettata', {
+    fetch('https://uni-bnb-be.herokuapp.com/accettaPrenotazione/accettata', {
       method: "POST",
       headers: {
           'Content-type' : 'application/json'
@@ -377,7 +377,7 @@ class ListItemPrenotazioni extends Component {
       proprieta: e.ref_proprieta
     }
 
-    fetch('https://h-e-b-be.herokuapp.com/checkSoggiornante/resultIdoneita', {
+    fetch('https://uni-bnb-be.herokuapp.com/checkSoggiornante/resultIdoneita', {
       method: "POST",
       headers: {
           'Content-type' : 'application/json'

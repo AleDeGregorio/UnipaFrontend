@@ -64,7 +64,7 @@ class autenticazioneRegistratiProprietario extends React.Component {
             telefono: this.state.telefono
         }
 
-        fetch('https://h-e-b-be.herokuapp.com/insertProprietario/new', {
+        fetch('https://uni-bnb-be.herokuapp.com/insertProprietario/new', {
             method: "POST",
             headers: {
                 'Content-type' : 'application/json'
@@ -104,7 +104,7 @@ class autenticazioneRegistratiProprietario extends React.Component {
                     telefono: this.state.telefono
                 }
         
-                fetch('https://h-e-b-be.herokuapp.com/insertCliente/new', {
+                fetch('https://uni-bnb-be.herokuapp.com/insertCliente/new', {
                     method: "POST",
                     headers: {
                         'Content-type' : 'application/json'

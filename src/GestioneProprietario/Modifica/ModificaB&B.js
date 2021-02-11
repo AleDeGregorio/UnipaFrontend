@@ -40,7 +40,7 @@ class ModificaBeB extends React.Component {
 
   componentDidMount() {
 
-    fetch('https://h-e-b-be.herokuapp.com/servizi/all', {
+    fetch('https://uni-bnb-be.herokuapp.com/servizi/all', {
       method: "GET",
       headers: {
         'Content-type': 'application/json'
@@ -95,7 +95,7 @@ class ModificaBeB extends React.Component {
       id_proprieta: this.state.id_proprieta
     };
 
-    fetch('https://h-e-b-be.herokuapp.com/updateProprieta/fields', {
+    fetch('https://uni-bnb-be.herokuapp.com/updateProprieta/fields', {
         method: 'POST',
         headers: {
           'Content-type':'application/json'
@@ -124,7 +124,7 @@ class ModificaBeB extends React.Component {
           ref_proprieta_bb: this.state.ref_proprieta_bb,
         };
     
-        fetch('https://h-e-b-be.herokuapp.com/updateBB/fields',{
+        fetch('https://uni-bnb-be.herokuapp.com/updateBB/fields',{
             method: 'POST',
             headers: {
                 'Content-type':'application/json'
@@ -166,7 +166,7 @@ class ModificaBeB extends React.Component {
         servizio: this.state.nuovoServizio
       }
 
-      fetch('https://h-e-b-be.herokuapp.com/insertServizio/new', {
+      fetch('https://uni-bnb-be.herokuapp.com/insertServizio/new', {
         method: "POST",
         headers:{
           'Content-type': 'application/json'

@@ -36,7 +36,7 @@ class ProprietarioPage extends React.Component {
             email: this.state.email
         };
 
-        fetch('https://h-e-b-be.herokuapp.com/getDataInvio/dataInvio',{
+        fetch('https://uni-bnb-be.herokuapp.com/getDataInvio/dataInvio',{
             method: 'POST',
             headers: {
                 'Content-type':'application/json'
@@ -72,7 +72,7 @@ class ProprietarioPage extends React.Component {
             ref_proprietario: this.state.email
         };
 
-        fetch('https://h-e-b-be.herokuapp.com/getTasseInvio/tasse',{
+        fetch('https://uni-bnb-be.herokuapp.com/getTasseInvio/tasse',{
             method: 'POST',
             headers: {
                 'Content-type':'application/json'
@@ -124,7 +124,7 @@ class ProprietarioPage extends React.Component {
             data: new Date(moment().format()).toLocaleDateString()
         };
 
-        fetch('https://h-e-b-be.herokuapp.com/updateDataInvio/invioDati',{
+        fetch('https://uni-bnb-be.herokuapp.com/updateDataInvio/invioDati',{
             method: 'POST',
             headers: {
                 'Content-type':'application/json'
@@ -161,7 +161,7 @@ class ProprietarioPage extends React.Component {
             ref_proprietario: this.state.email
         };
 
-        fetch('https://h-e-b-be.herokuapp.com/deleteTasseInvio/deleteTasse',{
+        fetch('https://uni-bnb-be.herokuapp.com/deleteTasseInvio/deleteTasse',{
             method: 'POST',
             headers: {
                 'Content-type':'application/json'

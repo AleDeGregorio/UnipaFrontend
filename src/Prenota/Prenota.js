@@ -131,7 +131,7 @@ class Prenota extends React.Component {
                 data_ritorno: this.state.checkOut
             };
         
-            fetch('https://h-e-b-be.herokuapp.com/insertPrenotazione/new', {
+            fetch('https://uni-bnb-be.herokuapp.com/insertPrenotazione/new', {
                 method: "POST",
                 headers: {
                     'Content-type': 'application/json'
@@ -176,7 +176,7 @@ class Prenota extends React.Component {
           nascita: new Date(this.state.nascita).toLocaleDateString()
         };
     
-        fetch('https://h-e-b-be.herokuapp.com/insertSoggiornante/new', {
+        fetch('https://uni-bnb-be.herokuapp.com/insertSoggiornante/new', {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'

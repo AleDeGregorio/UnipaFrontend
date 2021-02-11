@@ -55,7 +55,7 @@ class Earning extends React.Component {
       data_2: new Date(this.state.data_2).toLocaleDateString()
     };
 
-    fetch('https://h-e-b-be.herokuapp.com/getGuadagni/guadagniProprietario', {
+    fetch('https://uni-bnb-be.herokuapp.com/getGuadagni/guadagniProprietario', {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'
@@ -93,7 +93,7 @@ class Earning extends React.Component {
       tipo: this.state.tipo_struttura
     };
 
-    fetch('https://h-e-b-be.herokuapp.com/getGuadagniTipo/guadagniProprietarioTipo', {
+    fetch('https://uni-bnb-be.herokuapp.com/getGuadagniTipo/guadagniProprietarioTipo', {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'
@@ -129,7 +129,7 @@ class Earning extends React.Component {
       id: this.state.id_struttura
     };
 
-    fetch('https://h-e-b-be.herokuapp.com/getGuadagniProprieta/guadagniProprietarioProprieta', {
+    fetch('https://uni-bnb-be.herokuapp.com/getGuadagniProprieta/guadagniProprietarioProprieta', {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'
@@ -162,7 +162,7 @@ class Earning extends React.Component {
       ref_proprietario: this.state.email_prop
     };
 
-    fetch('https://h-e-b-be.herokuapp.com/searchProprietaProprietario/proprietaProprietario', {
+    fetch('https://uni-bnb-be.herokuapp.com/searchProprietaProprietario/proprietaProprietario', {
         method: "POST",
         headers: {
             'Content-type': 'application/json'

@@ -43,7 +43,7 @@ class DiventaHost extends React.Component {
             telefono: this.state.telefono
         }
 
-        fetch('https://h-e-b-be.herokuapp.com/insertProprietarioCliente/newPropCl', {
+        fetch('https://uni-bnb-be.herokuapp.com/insertProprietarioCliente/newPropCl', {
             method: "POST",
             headers: {
                 'Content-type' : 'application/json'
@@ -82,7 +82,7 @@ class DiventaHost extends React.Component {
                             email: this.state.email,
                         }
                 
-                        fetch('https://h-e-b-be.herokuapp.com/searchProprietarioEmail/proprietarioEmail', {
+                        fetch('https://uni-bnb-be.herokuapp.com/searchProprietarioEmail/proprietarioEmail', {
                             method: "POST",
                             headers: {
                                 'Content-type' : 'application/json'
@@ -138,7 +138,7 @@ class DiventaHost extends React.Component {
             checkOut: ''
         };
 
-        fetch('https://h-e-b-be.herokuapp.com/ricercaAlloggio/risultati', {
+        fetch('https://uni-bnb-be.herokuapp.com/ricercaAlloggio/risultati', {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'

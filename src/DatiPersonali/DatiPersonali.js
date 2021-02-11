@@ -86,7 +86,7 @@ class DatiPersonali extends React.Component {
                 num_documento: this.state.num_documento === '' ? this.state.num_documentoTXT : this.state.num_documento
             }
 
-            fetch('https://h-e-b-be.herokuapp.com/updateProprietario/fields', {
+            fetch('https://uni-bnb-be.herokuapp.com/updateProprietario/fields', {
                 method: "POST",
                 headers: {
                     'Content-type' : 'application/json'
@@ -121,7 +121,7 @@ class DatiPersonali extends React.Component {
                         email: this.state.email
                     }
 
-                    fetch('https://h-e-b-be.herokuapp.com/searchProprietarioEmail/proprietarioEmail', {
+                    fetch('https://uni-bnb-be.herokuapp.com/searchProprietarioEmail/proprietarioEmail', {
                         method: "POST",
                         headers: {
                             'Content-type' : 'application/json'
@@ -175,7 +175,7 @@ class DatiPersonali extends React.Component {
                 telefono: this.state.telefono === '' ? this.state.telefonoTXT : this.state.telefono
             }
 
-            fetch('https://h-e-b-be.herokuapp.com/updateCliente/fields', {
+            fetch('https://uni-bnb-be.herokuapp.com/updateCliente/fields', {
                 method: "POST",
                 headers: {
                     'Content-type' : 'application/json'
@@ -211,7 +211,7 @@ class DatiPersonali extends React.Component {
                         email: this.state.email
                     }
 
-                    fetch('https://h-e-b-be.herokuapp.com/searchCliente/results', {
+                    fetch('https://uni-bnb-be.herokuapp.com/searchCliente/results', {
                         method: "POST",
                         headers: {
                             'Content-type' : 'application/json'
@@ -273,7 +273,7 @@ class DatiPersonali extends React.Component {
                 password: this.state.oldPassword,
             }
 
-            fetch('https://h-e-b-be.herokuapp.com/loginProprietario/proprietarioLogged', {
+            fetch('https://uni-bnb-be.herokuapp.com/loginProprietario/proprietarioLogged', {
                 method: "POST",
                 headers: {
                     'Content-type' : 'application/json'
@@ -310,7 +310,7 @@ class DatiPersonali extends React.Component {
                         password: this.state.newPassword,
                     }
 
-                    fetch('https://h-e-b-be.herokuapp.com/updateProprietarioPassword/updPass', {
+                    fetch('https://uni-bnb-be.herokuapp.com/updateProprietarioPassword/updPass', {
                         method: "POST",
                         headers: {
                             'Content-type' : 'application/json'
@@ -345,7 +345,7 @@ class DatiPersonali extends React.Component {
                                 email: this.state.email
                             }
         
-                            fetch('https://h-e-b-be.herokuapp.com/searchProprietarioEmail/proprietarioEmail', {
+                            fetch('https://uni-bnb-be.herokuapp.com/searchProprietarioEmail/proprietarioEmail', {
                                 method: "POST",
                                 headers: {
                                     'Content-type' : 'application/json'
@@ -398,7 +398,7 @@ class DatiPersonali extends React.Component {
                 password: this.state.oldPassword,
             }
 
-            fetch('https://h-e-b-be.herokuapp.com/loginCliente/clienteLogged', {
+            fetch('https://uni-bnb-be.herokuapp.com/loginCliente/clienteLogged', {
                 method: "POST",
                 headers: {
                     'Content-type' : 'application/json'
@@ -435,7 +435,7 @@ class DatiPersonali extends React.Component {
                         password: this.state.newPassword,
                     }
 
-                    fetch('https://h-e-b-be.herokuapp.com/updateClientePassword/updPassword', {
+                    fetch('https://uni-bnb-be.herokuapp.com/updateClientePassword/updPassword', {
                         method: "POST",
                         headers: {
                             'Content-type' : 'application/json'
@@ -471,7 +471,7 @@ class DatiPersonali extends React.Component {
                                 email: this.state.email
                             }
         
-                            fetch('https://h-e-b-be.herokuapp.com/searchCliente/results', {
+                            fetch('https://uni-bnb-be.herokuapp.com/searchCliente/results', {
                                 method: "POST",
                                 headers: {
                                     'Content-type' : 'application/json'

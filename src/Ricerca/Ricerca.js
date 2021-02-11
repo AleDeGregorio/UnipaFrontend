@@ -91,7 +91,7 @@ class Ricerca extends React.Component {
                 checkOut: fine
             };
     
-            fetch('https://h-e-b-be.herokuapp.com/ricercaAlloggio/risultati', {
+            fetch('https://uni-bnb-be.herokuapp.com/ricercaAlloggio/risultati', {
                 method: "POST",
                 headers: {
                     'Content-type': 'application/json'

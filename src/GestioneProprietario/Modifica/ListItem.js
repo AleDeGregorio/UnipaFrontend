@@ -262,7 +262,7 @@ class ListItem extends Component {
       id_stanza: e
     }
 
-    fetch('https://h-e-b-be.herokuapp.com/deleteStanza/deleted', {
+    fetch('https://uni-bnb-be.herokuapp.com/deleteStanza/deleted', {
       method: "POST",
       headers: {
           'Content-type' : 'application/json'

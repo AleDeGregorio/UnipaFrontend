@@ -53,7 +53,7 @@ class ModificaCasaVacanza extends React.Component {
 
   componentDidMount() {
 
-    fetch('https://h-e-b-be.herokuapp.com/servizi/all', {
+    fetch('https://uni-bnb-be.herokuapp.com/servizi/all', {
       method: "GET",
       headers: {
         'Content-type': 'application/json'
@@ -122,7 +122,7 @@ class ModificaCasaVacanza extends React.Component {
       servizi: this.state.listaServiziCasa
     };
 
-    fetch('https://h-e-b-be.herokuapp.com/updateProprieta/fields', {
+    fetch('https://uni-bnb-be.herokuapp.com/updateProprieta/fields', {
         method: 'POST',
         headers: {
           'Content-type':'application/json'
@@ -158,7 +158,7 @@ class ModificaCasaVacanza extends React.Component {
           fileName4: data2.ref_proprieta_cv + "_4.jpg",
         });
     
-        fetch('https://h-e-b-be.herokuapp.com/updateCasa/fields',{
+        fetch('https://uni-bnb-be.herokuapp.com/updateCasa/fields',{
             method: 'POST',
             headers: {
                 'Content-type':'application/json'
@@ -195,7 +195,7 @@ class ModificaCasaVacanza extends React.Component {
               form.append("foto4", this.state.imgCV_path4, this.state.fileName4);
             }
 
-            fetch('https://h-e-b-be.herokuapp.com/uploadFotoCV/upload', {
+            fetch('https://uni-bnb-be.herokuapp.com/uploadFotoCV/upload', {
               method: "POST",
               body: form
             })
@@ -236,7 +236,7 @@ class ModificaCasaVacanza extends React.Component {
         servizio: this.state.nuovoServizio
       }
 
-      fetch('https://h-e-b-be.herokuapp.com/insertServizio/new', {
+      fetch('https://uni-bnb-be.herokuapp.com/insertServizio/new', {
         method: "POST",
         headers:{
           'Content-type': 'application/json'

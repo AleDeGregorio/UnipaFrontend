@@ -49,7 +49,7 @@ class NavBar extends React.Component {
             checkOut: ''
         };
 
-        fetch('https://h-e-b-be.herokuapp.com/ricercaAlloggio/risultati', {
+        fetch('https://uni-bnb-be.herokuapp.com/ricercaAlloggio/risultati', {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'
@@ -104,7 +104,7 @@ class NavBar extends React.Component {
             checkOut: ''
         };
 
-        fetch('https://h-e-b-be.herokuapp.com/ricercaAlloggio/risultati', {
+        fetch('https://uni-bnb-be.herokuapp.com/ricercaAlloggio/risultati', {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'
@@ -191,7 +191,7 @@ class NavBar extends React.Component {
             return (
                 <> 
                     <Navbar bg="light" expand="lg">
-                        <Navbar.Brand href="/">H&B</Navbar.Brand>
+                        <Navbar.Brand href="/">UniBnb</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mr-auto">
@@ -217,7 +217,7 @@ class NavBar extends React.Component {
 
         return(
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="/">H&B</Navbar.Brand>
+                <Navbar.Brand href="/">UniBnb</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
