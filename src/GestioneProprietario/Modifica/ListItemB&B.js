@@ -261,7 +261,7 @@ class ListItemCase extends Component {
       ref_proprieta_bb: e
     }
 
-    fetch('https://progetto-unipa-be.herokuapp.com/deleteBB/deleted', {
+    fetch('https://h-e-b-be.herokuapp.com/deleteBB/deleted', {
       method: "POST",
       headers: {
           'Content-type' : 'application/json'

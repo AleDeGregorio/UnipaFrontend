@@ -64,7 +64,7 @@ class ElencoCheck extends Component {
       ref_proprietario: this.state.email_prop
     };
 
-    fetch('https://progetto-unipa-be.herokuapp.com/getPrenotazioniAccettate/prenotazioniAccettate', {
+    fetch('https://h-e-b-be.herokuapp.com/getPrenotazioniAccettate/prenotazioniAccettate', {
       method: "POST",
       headers: {
           'Content-type': 'application/json'

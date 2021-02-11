@@ -64,7 +64,7 @@ class ListAccettare extends Component {
         ref_proprietario: this.state.email_prop
     };
 
-    fetch('https://progetto-unipa-be.herokuapp.com/getPrenotazioniAccettazione/prenotazioniAccettazione', {
+    fetch('https://h-e-b-be.herokuapp.com/getPrenotazioniAccettazione/prenotazioniAccettazione', {
       method: "POST",
       headers: {
           'Content-type': 'application/json'

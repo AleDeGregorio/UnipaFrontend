@@ -49,7 +49,7 @@ class NavBar extends React.Component {
             checkOut: ''
         };
 
-        fetch('https://progetto-unipa-be.herokuapp.com/ricercaAlloggio/risultati', {
+        fetch('https://h-e-b-be.herokuapp.com/ricercaAlloggio/risultati', {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'
@@ -104,7 +104,7 @@ class NavBar extends React.Component {
             checkOut: ''
         };
 
-        fetch('https://progetto-unipa-be.herokuapp.com/ricercaAlloggio/risultati', {
+        fetch('https://h-e-b-be.herokuapp.com/ricercaAlloggio/risultati', {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'

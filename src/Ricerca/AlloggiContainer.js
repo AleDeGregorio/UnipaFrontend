@@ -30,7 +30,7 @@ class AlloggiContainer extends React.Component {
 
   componentDidMount() {
 
-    fetch('https://progetto-unipa-be.herokuapp.com/servizi/all', {
+    fetch('https://h-e-b-be.herokuapp.com/servizi/all', {
       method: "GET",
       headers: {
         'Content-type': 'application/json'
@@ -86,7 +86,7 @@ class AlloggiContainer extends React.Component {
         checkOut: fine
       };
   
-      fetch('https://progetto-unipa-be.herokuapp.com/ricercaAlloggio/risultati', {
+      fetch('https://h-e-b-be.herokuapp.com/ricercaAlloggio/risultati', {
           method: "POST",
           headers: {
               'Content-type': 'application/json'
@@ -140,7 +140,7 @@ class AlloggiContainer extends React.Component {
         checkOut: fine
       };
   
-      fetch('https://progetto-unipa-be.herokuapp.com/ricercaAlloggio/risultati', {
+      fetch('https://h-e-b-be.herokuapp.com/ricercaAlloggio/risultati', {
           method: "POST",
           headers: {
               'Content-type': 'application/json'

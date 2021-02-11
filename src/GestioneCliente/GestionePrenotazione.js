@@ -40,7 +40,7 @@ class GestionePrenotazione extends React.Component {
             ref_cliente: this.state.email
         }; 
 
-        fetch('https://progetto-unipa-be.herokuapp.com/searchPrenotazioneCliente/prenotazioneCliente', {
+        fetch('https://h-e-b-be.herokuapp.com/searchPrenotazioneCliente/prenotazioneCliente', {
             method:'POST',
             headers:{
                 'Content-type':'application/json'
@@ -156,7 +156,7 @@ class GestionePrenotazione extends React.Component {
                 data_ritorno: this.state.data_ritorno
             }
 
-            fetch('https://progetto-unipa-be.herokuapp.com/updateDatePrenotazione/newDate', {
+            fetch('https://h-e-b-be.herokuapp.com/updateDatePrenotazione/newDate', {
                 method: "POST",
                 headers: {
                     'Content-type' : 'application/json'
@@ -207,7 +207,7 @@ class GestionePrenotazione extends React.Component {
             id_prenotazione: this.state.id_prenotazione,
         }
 
-        fetch('https://progetto-unipa-be.herokuapp.com/deletePrenotazione/delete', {
+        fetch('https://h-e-b-be.herokuapp.com/deletePrenotazione/delete', {
             method: "POST",
             headers: {
                 'Content-type' : 'application/json'
@@ -261,7 +261,7 @@ class GestionePrenotazione extends React.Component {
                 ref_proprieta: ref_proprieta
             }; 
 
-            fetch('https://progetto-unipa-be.herokuapp.com/getDateCasa/dateCasa', { 
+            fetch('https://h-e-b-be.herokuapp.com/getDateCasa/dateCasa', { 
                 method:'POST',
                 headers:{
                     'Content-type':'application/json'
@@ -305,7 +305,7 @@ class GestionePrenotazione extends React.Component {
                 id_stanza: id_stanza
             }; 
 
-            fetch('https://progetto-unipa-be.herokuapp.com/getDateStanza/dateStanza', { 
+            fetch('https://h-e-b-be.herokuapp.com/getDateStanza/dateStanza', { 
                 method:'POST',
                 headers:{
                     'Content-type':'application/json'

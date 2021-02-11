@@ -62,7 +62,7 @@ class autenticazioneRegistratiCliente extends React.Component {
             telefono: this.state.telefono
         }
 
-        fetch('https://progetto-unipa-be.herokuapp.com/insertCliente/new', {
+        fetch('https://h-e-b-be.herokuapp.com/insertCliente/new', {
             method: "POST",
             headers: {
                 'Content-type' : 'application/json'

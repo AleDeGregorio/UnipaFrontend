@@ -36,7 +36,7 @@ class ProprietarioPage extends React.Component {
             email: this.state.email
         };
 
-        fetch('https://progetto-unipa-be.herokuapp.com/getDataInvio/dataInvio',{
+        fetch('https://h-e-b-be.herokuapp.com/getDataInvio/dataInvio',{
             method: 'POST',
             headers: {
                 'Content-type':'application/json'
@@ -72,7 +72,7 @@ class ProprietarioPage extends React.Component {
             ref_proprietario: this.state.email
         };
 
-        fetch('https://progetto-unipa-be.herokuapp.com/getTasseInvio/tasse',{
+        fetch('https://h-e-b-be.herokuapp.com/getTasseInvio/tasse',{
             method: 'POST',
             headers: {
                 'Content-type':'application/json'
@@ -124,7 +124,7 @@ class ProprietarioPage extends React.Component {
             data: new Date(moment().format()).toLocaleDateString()
         };
 
-        fetch('https://progetto-unipa-be.herokuapp.com/updateDataInvio/invioDati',{
+        fetch('https://h-e-b-be.herokuapp.com/updateDataInvio/invioDati',{
             method: 'POST',
             headers: {
                 'Content-type':'application/json'
@@ -161,7 +161,7 @@ class ProprietarioPage extends React.Component {
             ref_proprietario: this.state.email
         };
 
-        fetch('https://progetto-unipa-be.herokuapp.com/deleteTasseInvio/deleteTasse',{
+        fetch('https://h-e-b-be.herokuapp.com/deleteTasseInvio/deleteTasse',{
             method: 'POST',
             headers: {
                 'Content-type':'application/json'

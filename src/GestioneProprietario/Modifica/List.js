@@ -61,7 +61,7 @@ class List extends Component {
       ref_bb: this.state.dati_bb.ref_proprieta_bb
     }
 
-    fetch('https://progetto-unipa-be.herokuapp.com/searchStanzaBB/stanzaBB', {
+    fetch('https://h-e-b-be.herokuapp.com/searchStanzaBB/stanzaBB', {
         method: "POST",
         headers: {
             'Content-type': 'application/json'

@@ -63,7 +63,7 @@ class ListBeB extends Component {
       tipo_proprieta: 'bb'
     }
 
-    fetch('https://progetto-unipa-be.herokuapp.com/searchProprietaBBProprietario/proprietaBBProprietario', {
+    fetch('https://h-e-b-be.herokuapp.com/searchProprietaBBProprietario/proprietaBBProprietario', {
         method: "POST",
         headers: {
             'Content-type': 'application/json'
